@@ -2,8 +2,7 @@
 
 **A point-and-click adventure game set on Mars**
 
-![Banner Image](https://via.placeholder.com/1200x600?text=CZ424+The+Abandoned+Shaft)  
-_(Replace with a nice Minecraft screenshot of the big arch + Czech flag at sunset)_
+![Banner Image](https://i.imgur.com/LNkFUr8.png)
 
 ## Tagline
 
@@ -68,38 +67,29 @@ Now you must explore the silent halls of CZ424, restore power from the ancient c
 - **Minecraft 1.20.4 (Fabric)**
 - **Mods used:**
   - WorldEdit + Axiom (building & editing)
-  - Ad Astra (space & atmosphere)
+  - Ad Astra (mars landscape)
   - Macaw’s Mods (furniture & decoration)
   - Iris Shaders
   - **Rethinking Voxels** shader
-- All scenes are built in Minecraft and exported as high-quality screenshots
+- All scenes are built in Minecraft by hand
+
+### Fonts
+
+- Rajdhani
+- Anton
 
 ---
 
 ## Development Status
 
+- [x] Scene system
 - [x] Game title & lore finalized
-- [x] Main base built in Minecraft
+- [ ] Build of scenes in Minecraft
 - [ ] Scene implementation (React)
-- [ ] Hotspots & interactions
-- [ ] Dialogue system
-- [ ] Puzzles & two endings
+- [ ] Endings
+- [ ] Save system
 - [ ] Sound design & music
 
 ---
 
-## Inspirations
-
-- Classic point-and-click adventures (Monkey Island, Myst, Outer Wilds)
-- Ostrava / Vítkovice industrial aesthetic
-- Realistic near-future sci-fi
-- Themes: legacy, abandonment, and rebuilding
-
----
-
-**Made with passion in Czechia** 🇨🇿  
-_“Rubali sme na Zemi. Teď rubáme na Marsu.”_
-
----
-
-**Project by [Your Name]**
+**Made with passion in Czechia** 🇨🇿 by **Alexandre Nicolas**
