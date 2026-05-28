@@ -36,7 +36,7 @@ const Scene = ({ sceneData, onButtonClick }) => {
               border: 'none',
               borderRadius: '19px',
               cursor: hoveredBtn === btn.id ? 'pointer' : 'default',
-              animation: hoveredBtn === btn.id ? 'cryo-pulse 1.4s ease-in-out infinite' : 'none',
+              animation: hoveredBtn === btn.id ? 'pulse 1.4s ease-in-out infinite' : 'none',
               outline: 'none',
               padding: 0,
             }}

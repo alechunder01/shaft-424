@@ -4,24 +4,11 @@
 
 ![Banner Image](https://i.imgur.com/LNkFUr8.png)
 
-## Tagline
-
-**“They thought you were dead. Mars still needs you alive.”**
-
 ---
 
 ## About the Project
 
 **CZ424: The Abandoned Shaft** is a solo-developed web-based point-and-click adventure game. The player takes the role of a Czech geothermal engineer who wakes up alone in an abandoned Martian mining outpost after his crew left him for dead.
-
-Built with **React + Bootstrap**, the game uses high-quality Minecraft screenshots (heavily modded) as the visual style. The atmosphere is lonely, industrial, and deeply inspired by Ostrava’s Vítkovice industrial heritage.
-
-### Core Features
-
-- Classic point-and-click gameplay (examine, use, combine items)
-- Rich environmental storytelling
-- Two different endings: **Escape** or **Rebuild**
-- Atmospheric sci-fi narrative with Czech industrial roots
 
 ---
 
@@ -66,8 +53,7 @@ The base is dying. The great lava generators are offline. The return ship is par
 
 ### Fonts
 
-- Rajdhani
-- Anton
+- Courier New
 
 ---
 
@@ -77,7 +63,7 @@ The base is dying. The great lava generators are offline. The return ship is par
 - [x] Game title & lore finalized
 - [x] Build of scenes in Minecraft
 - [ ] Scene implementation (React)
-- [ ] Starting dialogue
+- [x] Starting dialogue
 - [ ] Endings
 - [x] Save system
 - [ ] Sound design & music
