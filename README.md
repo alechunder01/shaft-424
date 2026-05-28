@@ -35,24 +35,15 @@ By the early 2090s, Earth was barely habitable. Decades of economic collapse fol
 
 In **2118**, as Earth slowly recovered, a new race to colonize Mars began. The Czech Republic returned to its greatest pre-war asset: **Shaft 424** — the deepest geothermal borehole ever drilled on Mars.
 
-Built in the spirit of Ostrava’s legendary **Vítkovice** ironworks, Shaft 424 reached a massive underground lava lake, providing unlimited energy and access to the rare high-temperature mineral **Vítkovium**.
+Built throughout the 60s and 70s, Shaft 424 reached a massive underground lava lake, providing unlimited energy and access to the rare high-temperature mineral **Palladium**.
 
-A reactivation team of twenty specialists was sent in 2143. Shortly after arrival, a violent dust storm (or something more mysterious) forced the crew into emergency cryo-sleep in an old habitat prepared by autonomous rovers.
-
-All except one.
+A reactivation team of six specialists was sent in 2120. Shortly after arrival, a violent dust storm (or something more mysterious) forced the crew into emergency cryo-sleep in an old habitat prepared by autonomous rovers.
 
 You — the chief geothermal engineer — suffered a cryo malfunction. The rest of the team, believing you had died, left a farewell message and synthetic flowers on your chamber before evacuating.
 
 **You have just awakened.**
 
 The base is dying. The great lava generators are offline. The return ship is partially dismantled. You are completely alone on Mars.
-
-Now you must explore the silent halls of CZ424, restore power from the ancient core, uncover the truth… and make a final choice:
-
-- Repair the ship and return to Earth, **or**
-- Risk everything to stabilize the shaft and become the founder of **Nová Ostrava** — the first permanent Czech colony on Mars.
-
----
 
 ## Technical Stack
 
@@ -84,10 +75,11 @@ Now you must explore the silent halls of CZ424, restore power from the ancient c
 
 - [x] Scene system
 - [x] Game title & lore finalized
-- [ ] Build of scenes in Minecraft
+- [x] Build of scenes in Minecraft
 - [ ] Scene implementation (React)
+- [ ] Starting dialogue
 - [ ] Endings
-- [ ] Save system
+- [x] Save system
 - [ ] Sound design & music
 
 ---
