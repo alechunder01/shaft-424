@@ -13,10 +13,10 @@ export const tittlesScenes = {
             },
             {
                 id: "tittle0-credits",
-                x: 33, y: 37,
+                x: 33.1, y: 55.6,
                 width: 34, height: 13,
                 type: "exit",
-                to: "tittle1"
+                to: "credits"
             },
             {
                 id: "debug-to-outside",
@@ -25,6 +25,20 @@ export const tittlesScenes = {
                 type: "exit",
                 to: "outside1"
             }
+        ]
+    },
+
+    credits: {
+        id: "credits",
+        background: "scenes/tittles/credits.png",
+        buttons: [
+            {
+                id: "credits-0",
+                x: 33, y: 78,
+                width: 34, height: 13,
+                type: "exit",
+                to: "tittle0"
+            },
         ]
     },
 
