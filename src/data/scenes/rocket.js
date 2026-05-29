@@ -205,9 +205,9 @@ export const rocketScenes = {
                 x: 40, y: 45,
                 width: 20, height: 10,
                 type: "locked_exit2items",
-                requiredItem: "navigation-data",
-                requiredItem2: "fuel-cell",
-                lockedMessage: "You will need the Navigation data and a Fuel cell to get back to Earth.",
+                requiredItem: "Navigation Data",
+                requiredItem2: "Fuel Cell",
+                lockedMessage: "You will need the Navigation Data and a Fuel Cell to get back to Earth.",
                 to: "end-launch"
             },
         ]

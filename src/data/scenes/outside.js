@@ -91,11 +91,11 @@ export const outsideScenes = {
                 to: "outside2"
             },
             {
-                id: "hangarVehicle-chariot",
+                id: "hangarVehicle-expe1",
                 x: 40, y: 30,
                 width: 20, height: 35,
                 type: "exit",
-                to: "chariot"
+                to: "expe1"
             },
         ]
     },
