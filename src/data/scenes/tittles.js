@@ -13,17 +13,10 @@ export const tittlesScenes = {
             },
             {
                 id: "tittle0-credits",
-                x: 33.1, y: 55.6,
+                x: 33.1, y: 55.9,
                 width: 34, height: 13,
                 type: "exit",
                 to: "credits"
-            },
-            {
-                id: "debug-to-outside",
-                x: 0, y: 0,
-                width: 10, height: 10,
-                type: "exit",
-                to: "outside1"
             }
         ]
     },
@@ -109,6 +102,19 @@ export const tittlesScenes = {
                 type: "exit",
                 to: "lab1"
             }
+        ]
+    },
+
+    end: {
+        id: "end",
+        background: "scenes/tittles/ending.png",
+        buttons: [
+            {
+                id: "end-reset",
+                x: 33, y: 79,
+                width: 34, height: 13,
+                type: "end-reset"
+            },
         ]
     }
 };

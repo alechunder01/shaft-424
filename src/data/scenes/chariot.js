@@ -15,7 +15,8 @@ export const chariotScenes = {
                 x: 35, y: 70,
                 width: 28, height: 30,
                 type: "exit",
-                to: "expe2"
+                to: "expe2",
+                sound: 'sounds/chariot.mp3'
             },
             {
                 id: "expe1-exit",
@@ -49,7 +50,8 @@ export const chariotScenes = {
                 x: 35, y: 70,
                 width: 30, height: 30,
                 type: "exit",
-                to: "expe3"
+                to: "expe3",
+                sound: 'sounds/chariot.mp3'
             },
         ]
     },
@@ -69,27 +71,31 @@ export const chariotScenes = {
                 x: 40, y: 70,
                 width: 30, height: 30,
                 type: "exit",
-                to: "expe5"
+                to: "expe5",
+                sound: 'sounds/chariot.mp3'
             },
             {
                 id: "expe3-expe4",
                 x: 0, y: 20,
                 width: 20, height: 60,
                 type: "exit",
-                to: "expe4"
+                to: "expe4",
+                sound: 'sounds/airlocksmall.mp3'
             }
         ]
     },
     expe4: {
         id: 'expe4',
         background: 'scenes/expedition/expe4.png',
+        ambientSound: 'sounds/wind_outside.mp3',
         buttons: [
             {
                 id: "expe4-expe3",
                 x: 60, y: 20,
                 width: 40, height: 60,
                 type: "exit",
-                to: "expe3"
+                to: "expe3",
+                sound: 'sounds/airlocksmall.mp3'
             },
             {
                 id: "expe4-bodies",
@@ -111,6 +117,7 @@ export const chariotScenes = {
     expe4bodies: {
         id: 'expe4bodies',
         background: 'scenes/expedition/expe4bodies.png',
+        ambientSound: 'sounds/wind_outside.mp3',
         buttons: [
             {
                 id: "expe4bodies-expe4",
@@ -138,6 +145,7 @@ export const chariotScenes = {
     expe4hole: {
         id: 'expe4hole',
         background: 'scenes/expedition/expe4hole.png',
+        ambientSound: 'sounds/wind_radiation.mp3',
         buttons: [
             {
                 id: "expe4hole-expe4bodies",
@@ -158,6 +166,7 @@ export const chariotScenes = {
     expe4wreck: {
         id: 'expe4wreck',
         background: 'scenes/expedition/expe4wreck.png',
+        ambientSound: 'sounds/wind_outside.mp3',
         buttons: [
             {
                 id: "expe4wreck-expe4bodies",
@@ -198,7 +207,8 @@ export const chariotScenes = {
                 x: 33, y: 70,
                 width: 32, height: 30,
                 type: "exit",
-                to: "expe1"
+                to: "expe1",
+                sound: 'sounds/chariot.mp3'
             }
         ]
     },

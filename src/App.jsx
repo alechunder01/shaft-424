@@ -1,4 +1,4 @@
-import { useState, useEffect, useCallback } from 'react';
+import { useState, useEffect, useCallback, useRef } from 'react';
 import Scene from "./Scene";
 import { scenes } from "./data/scenes";
 
@@ -11,6 +11,14 @@ const preloadImages = () => {
   });
 };
 preloadImages();
+
+const playSound = (soundPath) => {
+  if (!soundPath) return;
+  const audio = new Audio(soundPath);
+  audio.play().catch(err => {
+    console.warn("Audio playback failed or was blocked by the browser:", err);
+  });
+};
 
 function App() {
   const [currentScene, setCurrentScene] = useState(() =>
@@ -41,6 +49,50 @@ function App() {
     return () => clearTimeout(t);
   }, [toast]);
 
+  const ambientAudioRef = useRef(null);
+const currentTrackPathRef = useRef(null);
+
+useEffect(() => {
+  const newSoundPath = scenes[currentScene]?.ambientSound;
+
+  // 1. If it's the SAME track, make sure it is actively playing and don't reset it
+  if (currentTrackPathRef.current === newSoundPath) {
+    if (ambientAudioRef.current && ambientAudioRef.current.paused) {
+      ambientAudioRef.current.play().catch(err => console.log("Playback resumed", err));
+    }
+    return; 
+  }
+
+  // 2. If the track is DIFFERENT, stop and clear the old one
+  if (ambientAudioRef.current) {
+    ambientAudioRef.current.pause();
+    ambientAudioRef.current = null;
+  }
+
+  // Update the path tracker string
+  currentTrackPathRef.current = newSoundPath;
+
+  // 3. Play the new track if it exists
+  if (newSoundPath) {
+    const audio = new Audio(newSoundPath);
+    audio.loop = true;
+    audio.volume = 0.4;
+    
+    ambientAudioRef.current = audio;
+
+    audio.play().catch(err => {
+      console.warn("Ambient playback blocked until user interaction:", err);
+    });
+  }
+
+  // Clean up if the component unmounts entirely
+  return () => {
+    if (ambientAudioRef.current) {
+      ambientAudioRef.current.pause();
+    }
+  };
+}, [currentScene]);
+
   const changeScene = useCallback((to) => {
     setMessage("");
     setFading(true);
@@ -51,37 +103,58 @@ function App() {
   }, []);
 
   const handleAction = (btn) => {
-    switch (btn.type) {
-      case 'exit':
+  // 1. Play sound immediately if the button object contains a sound path
+  
+  // 2. Continue with the rest of your game logic
+  switch (btn.type) {
+    case 'exit':
+      changeScene(btn.to);
+      if (btn.sound) playSound(btn.sound);
+      break;
+
+    case 'text':
+      setMessage(btn.message);
+      break;
+
+    case 'item':
+      if (inventory.includes(btn.itemName)) {
+        setToast(`You already have the ${btn.itemName}`);
+        playSound('/sounds/deny.mp3');
+      } else {
+        setInventory(prev => [...prev, btn.itemName]);
+        setToast(`${btn.itemName} added to inventory`);
+        playSound('/sounds/accept.mp3');
+      }
+      break;
+
+    case 'locked_exit':
+      if (inventory.includes(btn.requiredItem)) {
         changeScene(btn.to);
+        if (btn.sound) playSound(btn.sound);
+      } else {
+        setMessage(btn.lockedMessage);
+        playSound('/sounds/deny.mp3');
+      }
+      break;
+      
+    case 'locked_exit2items':
+      if (inventory.includes(btn.requiredItem) && inventory.includes(btn.requiredItem2)) {
+        changeScene(btn.to);
+        if (btn.sound) playSound(btn.sound);
+      } else {
+        setMessage(btn.lockedMessage);
+        playSound('/sounds/deny.mp3');
+      }
+      break;
+
+      case 'end-reset':
+        localStorage.clear();
+        setCurrentScene('tittle0');
+        setInventory([]);
+        setMessage("");
         break;
-      case 'text':
-        setMessage(btn.message);
-        break;
-      case 'item':
-        if (inventory.includes(btn.itemName)) {
-          setToast(`You already have the ${btn.itemName}`);
-        } else {
-          setInventory(prev => [...prev, btn.itemName]);
-          setToast(`${btn.itemName} added to inventory`);
-        }
-        break;
-      case 'locked_exit':
-        if (inventory.includes(btn.requiredItem)) {
-          changeScene(btn.to);
-        } else {
-          setMessage(btn.lockedMessage);
-        }
-        break;
-      case 'locked_exit2items':
-        if (inventory.includes(btn.requiredItem) && inventory.includes(btn.requiredItem2)) {
-          changeScene(btn.to);
-        } else {
-          setMessage(btn.lockedMessage);
-        }
-        break;
-    }
-  };
+  }
+};
 
   return (
     <main className="game-root">

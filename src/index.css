@@ -107,6 +107,7 @@ body {
   line-height: 1.6;
   letter-spacing: 0.02em;
   z-index: 10;
+  white-space: pre-line;
 }
 
 .dialog__header {

@@ -9,7 +9,7 @@ export const dome2Scenes = {
                 x: 20, y: 80,
                 width: 60, height: 20,
                 type: "exit",
-                to: "dome1food"
+                to: "dome1"
             },
             {
                 id: "dome2-dome2gym",

@@ -13,7 +13,6 @@ message: ""
 ITEM
 type: "item",
 itemName: "",
-itemDescription: ""
 
 LOCKED EXIT
 type: "locked_exit",
@@ -38,7 +37,7 @@ import { habScenes } from './scenes/hab.js';
 import { outsideScenes } from './scenes/outside.js';
 import { rocketScenes } from './scenes/rocket.js';
 import { chariotScenes } from './scenes/chariot.js';
-
+import { shaftScenes } from './scenes/shaft.js';
 
 export const scenes = {
 
@@ -49,6 +48,7 @@ export const scenes = {
     ...habScenes,
     ...outsideScenes,
     ...rocketScenes,
-    ...chariotScenes
+    ...chariotScenes,
+    ...shaftScenes
 
 };

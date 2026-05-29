@@ -3,6 +3,7 @@ export const rocketScenes = {
     rocketoutside: {
     id: "rocketoutside",
     background: "scenes/rocket/rocketoutside.png",
+    ambientSound: "sounds/wind_outside.mp3",
     buttons: [
             {
                 id: "rocketoutside-outside4",
@@ -24,6 +25,7 @@ export const rocketScenes = {
     rocketelevator: {
         id: "rocketelevator",
         background: "scenes/rocket/rocketelevator.png",
+        ambientSound: "sounds/wind_outside.mp3",
         buttons: [
             {
                 id: "rocketelevator-rocketoutside",
@@ -45,13 +47,15 @@ export const rocketScenes = {
     rocketelevatorup: {
         id: 'rocketelevatorup',
         background: 'scenes/rocket/rocketelevatorup.png',
+        ambientSound: "sounds/wind_outside.mp3",
         buttons: [
             {
                 id: "rocketelevatorup-rocketairlock",
                 x: 5, y: 30,
                 width: 40, height: 50,
                 type: "exit",
-                to: "rocketairlock"
+                to: "rocketairlock",
+                sound: 'sounds/airlocksmall.mp3'
             },
             {
                 id: "rocketelevatorup-rocketelevator",
@@ -72,7 +76,8 @@ export const rocketScenes = {
                 x: 80, y: 30,
                 width: 20, height: 60,
                 type: "exit",
-                to: "rocketelevatorup"
+                to: "rocketelevatorup",
+                sound: 'sounds/airlocksmall.mp3'
             },
             {
                 id: "rocketairlock-rocket1",
@@ -208,7 +213,7 @@ export const rocketScenes = {
                 requiredItem: "Navigation Data",
                 requiredItem2: "Fuel Cell",
                 lockedMessage: "You will need the Navigation Data and a Fuel Cell to get back to Earth.",
-                to: "end-launch"
+                to: "end"
             },
         ]
     },
