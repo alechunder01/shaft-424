@@ -93,7 +93,7 @@ body {
 /* ─── Dialogue box ──────────────────────────────────────────── */
 .dialog {
   position: absolute;
-  bottom: 6%;
+  bottom: 40%;
   left: 12%;
   right: 12%;
   padding: 18px 22px 14px;
