@@ -39,7 +39,8 @@ export const rocketScenes = {
                 x: 40, y: 35,
                 width: 20, height: 20,
                 type: "exit",
-                to: "rocketelevatorup"
+                to: "rocketelevatorup",
+                sound: "sounds/elevatorcreak.mp3"
             },
         ]
     },
@@ -62,7 +63,8 @@ export const rocketScenes = {
                 x: 55, y: 45,
                 width: 20, height: 20,
                 type: "exit",
-                to: "rocketelevator"
+                to: "rocketelevator",
+                sound: "sounds/elevatorcreak.mp3"
             },
         ]
     },
