@@ -1,7 +1,7 @@
 export const chariotScenes = {
     expe1: {
         id: 'expe1',
-        background: 'scenes/expedition/expe1.png',
+        background: 'scenes/expedition/expe1.webp',
         buttons: [
             {
                 id: "expe1-info",
@@ -29,7 +29,7 @@ export const chariotScenes = {
     },
     expe2: {
         id: 'expe2',
-        background: 'scenes/expedition/expe2.png',
+        background: 'scenes/expedition/expe2.webp',
         buttons: [
             {
                 id: "expe2-view",
@@ -57,7 +57,7 @@ export const chariotScenes = {
     },
     expe3: {
         id: 'expe3',
-        background: 'scenes/expedition/expe3.png',
+        background: 'scenes/expedition/expe3.webp',
         buttons: [
             {
                 id: "expe3-info",
@@ -86,7 +86,7 @@ export const chariotScenes = {
     },
     expe4: {
         id: 'expe4',
-        background: 'scenes/expedition/expe4.png',
+        background: 'scenes/expedition/expe4.webp',
         ambientSound: 'sounds/wind_outside.mp3',
         buttons: [
             {
@@ -116,7 +116,7 @@ export const chariotScenes = {
     },
     expe4bodies: {
         id: 'expe4bodies',
-        background: 'scenes/expedition/expe4bodies.png',
+        background: 'scenes/expedition/expe4bodies.webp',
         ambientSound: 'sounds/wind_outside.mp3',
         buttons: [
             {
@@ -144,7 +144,7 @@ export const chariotScenes = {
     },
     expe4hole: {
         id: 'expe4hole',
-        background: 'scenes/expedition/expe4hole.png',
+        background: 'scenes/expedition/expe4hole.webp',
         ambientSound: 'sounds/wind_radiation.mp3',
         buttons: [
             {
@@ -165,7 +165,7 @@ export const chariotScenes = {
     },
     expe4wreck: {
         id: 'expe4wreck',
-        background: 'scenes/expedition/expe4wreck.png',
+        background: 'scenes/expedition/expe4wreck.webp',
         ambientSound: 'sounds/wind_outside.mp3',
         buttons: [
             {
@@ -193,7 +193,7 @@ export const chariotScenes = {
     },
     expe5: {
         id: 'expe5',
-        background: 'scenes/expedition/expe5.png',
+        background: 'scenes/expedition/expe5.webp',
         buttons: [
             {
                 id: "expe5-info",

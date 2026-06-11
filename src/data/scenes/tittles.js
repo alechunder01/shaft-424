@@ -2,7 +2,7 @@ export const tittlesScenes = {
 
     tittle0: {
         id: "tittle0",
-        background: "scenes/tittles/tittle0.png",
+        background: "scenes/tittles/tittle0.webp",
         buttons: [
             {
                 id: "tittle0-1",
@@ -23,7 +23,7 @@ export const tittlesScenes = {
 
     credits: {
         id: "credits",
-        background: "scenes/tittles/credits.png",
+        background: "scenes/tittles/credits.webp",
         buttons: [
             {
                 id: "credits-0",
@@ -37,7 +37,7 @@ export const tittlesScenes = {
 
     tittle1: {
         id: "tittle1",
-        background: "scenes/tittles/tittle1.png",
+        background: "scenes/tittles/tittle1.webp",
         buttons: [
             {
                 id: "tittle1-2",
@@ -51,7 +51,7 @@ export const tittlesScenes = {
 
     tittle2: {
         id: "tittle2",
-        background: "scenes/tittles/tittle2.png",
+        background: "scenes/tittles/tittle2.webp",
         buttons: [
             {
                 id: "tittle2-3",
@@ -65,7 +65,7 @@ export const tittlesScenes = {
 
     tittle3: {
         id: "tittle3",
-        background: "scenes/tittles/tittle3.png",
+        background: "scenes/tittles/tittle3.webp",
         buttons: [
             {
                 id: "tittle3-4",
@@ -79,7 +79,7 @@ export const tittlesScenes = {
     
     tittle4: {
         id: "tittle4",
-        background: "scenes/tittles/tittle4.png",
+        background: "scenes/tittles/tittle4.webp",
         buttons: [
             {
                 id: "tittle4-start",
@@ -93,7 +93,7 @@ export const tittlesScenes = {
 
     start: {
         id: "start",
-        background: "scenes/cryolab/scene0.png",
+        background: "scenes/cryolab/scene0.webp",
         buttons: [
             {
                 id: "start",
@@ -107,7 +107,7 @@ export const tittlesScenes = {
 
     end: {
         id: "end",
-        background: "scenes/tittles/ending.png",
+        background: "scenes/tittles/ending.webp",
         buttons: [
             {
                 id: "end-reset",

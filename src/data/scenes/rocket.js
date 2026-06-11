@@ -2,7 +2,7 @@ export const rocketScenes = {
 
     rocketoutside: {
     id: "rocketoutside",
-    background: "scenes/rocket/rocketoutside.png",
+    background: "scenes/rocket/rocketoutside.webp",
     ambientSound: "sounds/wind_outside.mp3",
     buttons: [
             {
@@ -24,7 +24,7 @@ export const rocketScenes = {
 
     rocketelevator: {
         id: "rocketelevator",
-        background: "scenes/rocket/rocketelevator.png",
+        background: "scenes/rocket/rocketelevator.webp",
         ambientSound: "sounds/wind_outside.mp3",
         buttons: [
             {
@@ -46,7 +46,7 @@ export const rocketScenes = {
 
     rocketelevatorup: {
         id: 'rocketelevatorup',
-        background: 'scenes/rocket/rocketelevatorup.png',
+        background: 'scenes/rocket/rocketelevatorup.webp',
         ambientSound: "sounds/wind_outside.mp3",
         buttons: [
             {
@@ -69,7 +69,7 @@ export const rocketScenes = {
 
     rocketairlock: {
         id: "rocketairlock",
-        background: "scenes/rocket/rocketairlock.png",
+        background: "scenes/rocket/rocketairlock.webp",
         buttons: [
             {
                 id: "rocketairlock-rocketelevator",
@@ -91,7 +91,7 @@ export const rocketScenes = {
 
     rocket0: {
         id: 'rocket0',
-        background: 'scenes/rocket/rocket0.png',
+        background: 'scenes/rocket/rocket0.webp',
         buttons: [
             {
                 id: "rocket0-rocket1",
@@ -105,7 +105,7 @@ export const rocketScenes = {
 
     rocket1: {
         id: 'rocket1',
-        background: 'scenes/rocket/rocket1.png',
+        background: 'scenes/rocket/rocket1.webp',
         buttons: [
             {
                 id: "rocket1-rocketairlock",
@@ -133,7 +133,7 @@ export const rocketScenes = {
 
     rocket2: {
         id: 'rocket2',
-        background: 'scenes/rocket/rocket2.png',
+        background: 'scenes/rocket/rocket2.webp',
         buttons: [
             {
                 id: "rocket2-rocket1",
@@ -154,7 +154,7 @@ export const rocketScenes = {
 
     rocket3: {
         id: 'rocket3',
-        background: 'scenes/rocket/rocket3.png',
+        background: 'scenes/rocket/rocket3.webp',
         buttons: [
             {
                 id: "rocket3-rocket2",
@@ -175,7 +175,7 @@ export const rocketScenes = {
 
     rocket4: {
         id: 'rocket4',
-        background: 'scenes/rocket/rocket4.png',
+        background: 'scenes/rocket/rocket4.webp',
         buttons: [
             {
                 id: "rocket4-rocket3",
@@ -196,7 +196,7 @@ export const rocketScenes = {
 
     rocket5: {
         id: 'rocket5',
-        background: 'scenes/rocket/rocket5.png',
+        background: 'scenes/rocket/rocket5.webp',
         buttons: [
             {
                 id: "rocket5-rocket4",

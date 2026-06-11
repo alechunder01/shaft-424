@@ -2,7 +2,7 @@ export const cryolabScenes = {
 
     lab1: {
         id: "lab1",
-        background: "scenes/cryolab/lab1.png",
+        background: "scenes/cryolab/lab1.webp",
         buttons: [
             {
                 id: "lab1-lab2",
@@ -30,7 +30,7 @@ export const cryolabScenes = {
 
     lab2: {
         id: "lab2",
-        background: "scenes/cryolab/lab2.png",
+        background: "scenes/cryolab/lab2.webp",
         buttons: [
             {
                 id: "lab2-lab1FLOWERS",
@@ -58,7 +58,7 @@ export const cryolabScenes = {
 
     labpc: {
         id: "labpc",
-        background: "scenes/cryolab/labpc.png",
+        background: "scenes/cryolab/labpc.webp",
         buttons: [
             {
                 id: "labpc-lab2",
@@ -72,7 +72,7 @@ export const cryolabScenes = {
 
     labstorage: {
         id: "labstorage",
-        background: "scenes/cryolab/labstorage.png",
+        background: "scenes/cryolab/labstorage.webp",
         buttons: [
             {
                 id: "labpc-labexit",
@@ -86,7 +86,7 @@ export const cryolabScenes = {
     
     labexit: {
         id: "labexit",
-        background: "scenes/cryolab/labexit.png",
+        background: "scenes/cryolab/labexit.webp",
         buttons: [
             {
                 id: "labexit-labstorage",

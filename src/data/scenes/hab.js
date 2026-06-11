@@ -2,7 +2,7 @@ export const habScenes = {
 
     hab: {
     id: "hab",
-    background: "scenes/hab/hab.png",
+    background: "scenes/hab/hab.webp",
     buttons: [
         {
             id: "habroom",
@@ -23,7 +23,7 @@ export const habScenes = {
 
     habroom: {
         id: "habroom",
-        background: "scenes/hab/habroom.png",
+        background: "scenes/hab/habroom.webp",
         buttons: [
             {
                 id: "habroom-hab",
@@ -51,7 +51,7 @@ export const habScenes = {
     
     habroomVIEW: {
         id: "habroomVIEW",
-        background: "scenes/hab/habroomVIEW.png",
+        background: "scenes/hab/habroomVIEW.webp",
         buttons: [
             {
                 id: "lilly",

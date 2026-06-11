@@ -2,7 +2,7 @@ export const outsideScenes = {
 
     airlock: {
     id: "airlock",
-    background: "scenes/outside/airlock.png",
+    background: "scenes/outside/airlock.webp",
     buttons: [
             {
                 id: "airlock-dome1",
@@ -26,7 +26,7 @@ export const outsideScenes = {
 
     outside1: {
         id: "outside1",
-        background: "scenes/outside/outside1.png",
+        background: "scenes/outside/outside1.webp",
         ambientSound: "sounds/wind_outside.mp3",
         buttons: [
             {
@@ -49,7 +49,7 @@ export const outsideScenes = {
 
     outside2: {
         id: "outside2",
-        background: "scenes/outside/outside2.png",
+        background: "scenes/outside/outside2.webp",
         ambientSound: "sounds/wind_outside.mp3",
         buttons: [
             {
@@ -85,7 +85,7 @@ export const outsideScenes = {
 
     hangarVehicle: {
         id: "hangarVehicle",
-        background: "scenes/outside/hangarVehicle.png",
+        background: "scenes/outside/hangarVehicle.webp",
         ambientSound: "sounds/wind_outside.mp3",
         buttons: [
             {
@@ -108,7 +108,7 @@ export const outsideScenes = {
 
     comms: {
         id: "comms",
-        background: "scenes/outside/comms.png",
+        background: "scenes/outside/comms.webp",
         ambientSound: "sounds/wind_outside.mp3",
         buttons: [
             {
@@ -123,7 +123,7 @@ export const outsideScenes = {
 
     outside3: {
         id: "outside3",
-        background: "scenes/outside/outside3.png",
+        background: "scenes/outside/outside3.webp",
         ambientSound: "sounds/wind_outside.mp3",
         buttons: [
             {
@@ -152,7 +152,7 @@ export const outsideScenes = {
     
     outside4: {
         id: "outside4",
-        background: "scenes/outside/outside4.png",
+        background: "scenes/outside/outside4.webp",
         ambientSound: "sounds/wind_outside.mp3",
         buttons: [
             {
@@ -181,7 +181,7 @@ export const outsideScenes = {
 
     elevatorcontrol: {
         id: "elevatorcontrol",
-        background: "scenes/outside/elevatorcontrol.png",
+        background: "scenes/outside/elevatorcontrol.webp",
         ambientSound: "sounds/wind_outside.mp3",
         buttons: [
             {
@@ -203,7 +203,7 @@ export const outsideScenes = {
 
     outside5: {
         id: "outside5",
-        background: "scenes/outside/outside5.png",
+        background: "scenes/outside/outside5.webp",
         ambientSound: "sounds/wind_outside.mp3",
         buttons: [
             {
@@ -239,7 +239,7 @@ export const outsideScenes = {
 
     boxarea: {
         id: "boxarea",
-        background: "scenes/outside/boxarea.png",
+        background: "scenes/outside/boxarea.webp",
         ambientSound: "sounds/wind_outside.mp3",
         buttons: [
             {
@@ -254,7 +254,7 @@ export const outsideScenes = {
 
     generatorsoff: {
         id: "generatorsoff",
-        background: "scenes/outside/generatorsoff.png",
+        background: "scenes/outside/generatorsoff.webp",
         ambientSound: "sounds/wind_outside.mp3",
         buttons: [
             {
@@ -279,7 +279,7 @@ export const outsideScenes = {
 
     generatorson: {
         id: "generatorson",
-        background: "scenes/outside/generatorson.png",
+        background: "scenes/outside/generatorson.webp",
         ambientSound: "sounds/wind_outside_generators.mp3",
         buttons: [
             {
@@ -301,7 +301,7 @@ export const outsideScenes = {
     
     elevatorbridge: {
         id: "elevatorbridge",
-        background: "scenes/outside/elevatorbridge.png",
+        background: "scenes/outside/elevatorbridge.webp",
         ambientSound: "sounds/wind_outside.mp3",
         buttons: [
             {
@@ -330,7 +330,7 @@ export const outsideScenes = {
 
     elevatorup: {
         id: "elevatorup",
-        background: "scenes/outside/elevatorup.png",
+        background: "scenes/outside/elevatorup.webp",
         ambientSound: "sounds/wind_outside.mp3",
         buttons: [
             {

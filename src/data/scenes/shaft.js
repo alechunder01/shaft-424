@@ -1,7 +1,7 @@
 export const shaftScenes = {
     elevatordown: {
         id: "elevatordown",
-        background: "scenes/shaft/elevatordown.png",
+        background: "scenes/shaft/elevatordown.webp",
         ambientSound: "sounds/wind_shaft.mp3",
         buttons: [
             {
@@ -24,7 +24,7 @@ export const shaftScenes = {
 
     shaft1: {
         id: "shaft1",
-        background: "scenes/shaft/shaft1.png",
+        background: "scenes/shaft/shaft1.webp",
         ambientSound: "sounds/wind_shaft.mp3",
         buttons: [
             {
@@ -53,7 +53,7 @@ export const shaftScenes = {
 
     shaft2: {
         id: "shaft2",
-        background: "scenes/shaft/shaft2.png",
+        background: "scenes/shaft/shaft2.webp",
         ambientSound: "sounds/wind_shaft.mp3",
         buttons: [
             {
@@ -82,7 +82,7 @@ export const shaftScenes = {
 
     shaftboxes: {
         id: "shaftboxes",
-        background: "scenes/shaft/shaftboxes.png",
+        background: "scenes/shaft/shaftboxes.webp",
         ambientSound: "sounds/wind_shaft.mp3",
         buttons: [
             {
@@ -104,7 +104,7 @@ export const shaftScenes = {
 
     shaftmine: {
         id: "shaftmine",
-        background: "scenes/shaft/shaftmine.png",
+        background: "scenes/shaft/shaftmine.webp",
         ambientSound: "sounds/wind_shaft.mp3",
         buttons: [
             {
@@ -127,7 +127,7 @@ export const shaftScenes = {
 
     shaftmine2: {
         id: "shaftmine2",
-        background: "scenes/shaft/shaftmine2.png",
+        background: "scenes/shaft/shaftmine2.webp",
         ambientSound: "sounds/wind_shaft.mp3",
         buttons: [
             {
@@ -149,7 +149,7 @@ export const shaftScenes = {
 
     shaftore: {
         id: "shaftore",
-        background: "scenes/shaft/shaftore.png",
+        background: "scenes/shaft/shaftore.webp",
         ambientSound: "sounds/wind_shaft.mp3",
         buttons: [
             {
@@ -178,7 +178,7 @@ export const shaftScenes = {
 
     shaftpump: {
         id: "shaftpump",
-        background: "scenes/shaft/shaftpump.png",
+        background: "scenes/shaft/shaftpump.webp",
         ambientSound: "sounds/wind_shaft.mp3",
         buttons: [
             {
@@ -214,7 +214,7 @@ export const shaftScenes = {
 
     shaftworkstation: {
         id: "shaftworkstation",
-        background: "scenes/shaft/shaftworkstation.png",
+        background: "scenes/shaft/shaftworkstation.webp",
         ambientSound: "sounds/wind_shaft.mp3",
         buttons: [
             {

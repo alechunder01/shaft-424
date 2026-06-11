@@ -2,7 +2,7 @@ export const dome2Scenes = {
 
     dome2: {
         id: "dome2",
-        background: "scenes/dome2/dome2.png",
+        background: "scenes/dome2/dome2.webp",
         buttons: [
             {
                 id: "dome2-dome1food",
@@ -30,7 +30,7 @@ export const dome2Scenes = {
     
     dome2gym: {
         id: "dome2gym",
-        background: "scenes/dome2/dome2gym.png",
+        background: "scenes/dome2/dome2gym.webp",
         buttons: [
             {
                 id: "dome2gym-dome2billiard",
@@ -58,7 +58,7 @@ export const dome2Scenes = {
 
     dome2billiard: {
     id: "dome2billiard",
-    background: "scenes/dome2/dome2billiard.png",
+    background: "scenes/dome2/dome2billiard.webp",
         buttons: [
             {
                 id: "dome2billiard-dome2gym",

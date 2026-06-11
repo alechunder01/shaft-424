@@ -2,7 +2,7 @@ export const dome1Scenes = {
     
     dome1: {
         id: "dome1",
-        background: "scenes/dome1/dome1.png",
+        background: "scenes/dome1/dome1.webp",
         buttons: [
             {
                 id: "dome1-labexit",
@@ -58,7 +58,7 @@ export const dome1Scenes = {
 
     infoboard: {
         id: 'infoboard',
-        background: 'scenes/dome1/infoboard.png',
+        background: 'scenes/dome1/infoboard.webp',
         buttons: [
             {
                 id: "infoboard-dome1",
@@ -72,7 +72,7 @@ export const dome1Scenes = {
 
     dome1garden: {
         id: "dome1garden",
-        background: "scenes/dome1/dome1garden.png",
+        background: "scenes/dome1/dome1garden.webp",
         buttons: [
             {
                 id: "dome1garden-dome1",
@@ -93,7 +93,7 @@ export const dome1Scenes = {
 
     dome1lab: {
         id: "dome1lab",
-        background: "scenes/dome1/dome1lab.png",
+        background: "scenes/dome1/dome1lab.webp",
         buttons: [
             {
                 id: "dome1lab-dome1",
@@ -135,7 +135,7 @@ export const dome1Scenes = {
 
     dome1oxygen: {
         id: "dome1oxygen",
-        background: "scenes/dome1/dome1oxygen.png",
+        background: "scenes/dome1/dome1oxygen.webp",
         buttons: [
             {
                 id: "dome1oxygen-dome1",

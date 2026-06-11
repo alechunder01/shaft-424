@@ -85,7 +85,6 @@ useEffect(() => {
     });
   }
 
-  // Clean up if the component unmounts entirely
   return () => {
     if (ambientAudioRef.current) {
       ambientAudioRef.current.pause();
@@ -103,9 +102,6 @@ useEffect(() => {
   }, []);
 
   const handleAction = (btn) => {
-  // 1. Play sound immediately if the button object contains a sound path
-  
-  // 2. Continue with the rest of your game logic
   switch (btn.type) {
     case 'exit':
       changeScene(btn.to);
